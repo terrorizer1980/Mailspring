@@ -59,7 +59,7 @@
     "electron-installer-dmg": "^3.0.0",
     "electron-packager": "15.2.x",
     "electron-winstaller": "2.x.x",
-    "eslint": "7.13.0",
+    "eslint": "9.0.0",
     "eslint-config-prettier": "7.2.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
