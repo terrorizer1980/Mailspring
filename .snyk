@@ -1,0 +1,234 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - gitbook-cli > npm > pacote > make-fetch-happen > http-proxy-agent > debug:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gitbook-cli > npm > pacote > make-fetch-happen > http-proxy-agent >
+          debug
+    - gitbook-cli > npm > pacote > make-fetch-happen > https-proxy-agent > debug:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:debug:20170905'
+        path: >-
+          gitbook-cli > npm > pacote > make-fetch-happen > https-proxy-agent >
+          debug
+  'npm:extend:20180424':
+    - gitbook-cli > npm > request > extend:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:extend:20180424'
+        path: gitbook-cli > npm > request > extend
+    - gitbook-cli > npm > node-gyp > request > extend:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:extend:20180424'
+        path: gitbook-cli > npm > node-gyp > request > extend
+    - gitbook-cli > npm > npm-registry-client > request > extend:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:extend:20180424'
+        path: gitbook-cli > npm > npm-registry-client > request > extend
+    - gitbook-cli > npmi > npm > request > extend:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:extend:20180424'
+        path: gitbook-cli > npmi > npm > request > extend
+    - gitbook-cli > npmi > npm > node-gyp > request > extend:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:extend:20180424'
+        path: gitbook-cli > npmi > npm > node-gyp > request > extend
+    - gitbook-cli > npmi > npm > npm-registry-client > request > extend:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:extend:20180424'
+        path: gitbook-cli > npmi > npm > npm-registry-client > request > extend
+  'npm:hoek:20180212':
+    - gitbook-cli > npm > request > hawk > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > hoek
+    - gitbook-cli > npm > request > hawk > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > boom > hoek
+    - gitbook-cli > npm > request > hawk > sntp > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > sntp > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > node-gyp > request > hawk > hoek
+    - gitbook-cli > npm > npm-registry-client > request > hawk > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > npm-registry-client > request > hawk > hoek
+    - gitbook-cli > npmi > npm > request > hawk > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > hoek
+    - gitbook-cli > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > request > hawk > cryptiles > boom > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > node-gyp > request > hawk > boom > hoek
+    - gitbook-cli > npm > npm-registry-client > request > hawk > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > npm-registry-client > request > hawk > boom > hoek
+    - gitbook-cli > npmi > npm > request > hawk > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > boom > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > node-gyp > request > hawk > sntp > hoek
+    - gitbook-cli > npm > npm-registry-client > request > hawk > sntp > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npm > npm-registry-client > request > hawk > sntp > hoek
+    - gitbook-cli > npmi > npm > request > hawk > sntp > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > sntp > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > node-gyp > request > hawk > hoek
+    - gitbook-cli > npmi > npm > npm-registry-client > request > hawk > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > npm-registry-client > request > hawk > hoek
+    - gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npm > node-gyp > request > hawk > cryptiles > boom >
+          hoek
+    - gitbook-cli > npm > npm-registry-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npm > npm-registry-client > request > hawk > cryptiles >
+          boom > hoek
+    - gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > request > hawk > cryptiles > boom > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > node-gyp > request > hawk > boom > hoek
+    - gitbook-cli > npmi > npm > npm-registry-client > request > hawk > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request > hawk > boom
+          > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: gitbook-cli > npmi > npm > node-gyp > request > hawk > sntp > hoek
+    - gitbook-cli > npmi > npm > npm-registry-client > request > hawk > sntp > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request > hawk > sntp
+          > hoek
+    - gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npmi > npm > node-gyp > request > hawk > cryptiles >
+          boom > hoek
+    - gitbook-cli > npmi > npm > npm-registry-client > request > hawk > cryptiles > boom > hoek:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:hoek:20180212'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request > hawk >
+          cryptiles > boom > hoek
+  'npm:qs:20170213':
+    - gitbook-cli > npmi > npm > request > qs:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:qs:20170213'
+        path: gitbook-cli > npmi > npm > request > qs
+    - gitbook-cli > npmi > npm > node-gyp > request > qs:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:qs:20170213'
+        path: gitbook-cli > npmi > npm > node-gyp > request > qs
+    - gitbook-cli > npmi > npm > npm-registry-client > request > qs:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:qs:20170213'
+        path: gitbook-cli > npmi > npm > npm-registry-client > request > qs
+  'npm:stringstream:20180511':
+    - gitbook-cli > npm > request > stringstream:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:stringstream:20180511'
+        path: gitbook-cli > npm > request > stringstream
+    - gitbook-cli > npm > node-gyp > request > stringstream:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:stringstream:20180511'
+        path: gitbook-cli > npm > node-gyp > request > stringstream
+    - gitbook-cli > npm > npm-registry-client > request > stringstream:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:stringstream:20180511'
+        path: gitbook-cli > npm > npm-registry-client > request > stringstream
+    - gitbook-cli > npmi > npm > request > stringstream:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:stringstream:20180511'
+        path: gitbook-cli > npmi > npm > request > stringstream
+    - gitbook-cli > npmi > npm > node-gyp > request > stringstream:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:stringstream:20180511'
+        path: gitbook-cli > npmi > npm > node-gyp > request > stringstream
+    - gitbook-cli > npmi > npm > npm-registry-client > request > stringstream:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:stringstream:20180511'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request >
+          stringstream
+  'npm:tough-cookie:20170905':
+    - gitbook-cli > npm > request > tough-cookie:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gitbook-cli > npm > request > tough-cookie
+    - gitbook-cli > npm > node-gyp > request > tough-cookie:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gitbook-cli > npm > node-gyp > request > tough-cookie
+    - gitbook-cli > npm > npm-registry-client > request > tough-cookie:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gitbook-cli > npm > npm-registry-client > request > tough-cookie
+    - gitbook-cli > npmi > npm > request > tough-cookie:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gitbook-cli > npmi > npm > request > tough-cookie
+    - gitbook-cli > npmi > npm > node-gyp > request > tough-cookie:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tough-cookie:20170905'
+        path: gitbook-cli > npmi > npm > node-gyp > request > tough-cookie
+    - gitbook-cli > npmi > npm > npm-registry-client > request > tough-cookie:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tough-cookie:20170905'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request >
+          tough-cookie
+  'npm:tunnel-agent:20170305':
+    - gitbook-cli > npmi > npm > request > tunnel-agent:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gitbook-cli > npmi > npm > request > tunnel-agent
+    - gitbook-cli > npmi > npm > node-gyp > request > tunnel-agent:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: gitbook-cli > npmi > npm > node-gyp > request > tunnel-agent
+    - gitbook-cli > npmi > npm > npm-registry-client > request > tunnel-agent:
+        patched: '2026-01-08T23:45:45.951Z'
+        id: 'npm:tunnel-agent:20170305'
+        path: >-
+          gitbook-cli > npmi > npm > npm-registry-client > request >
+          tunnel-agent
